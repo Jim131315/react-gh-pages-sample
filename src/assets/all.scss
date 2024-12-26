@@ -1,0 +1,13 @@
+$primary-bg: white;
+
+@import "bootstrap/scss/functions";
+
+// $primary: red;
+
+@import "./variables";
+
+@import "bootstrap/scss/bootstrap";
+
+body{
+    background-color: $primary-bg;
+}
